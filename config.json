@@ -2,7 +2,7 @@
     "config.json": "mp42mp3のコンフィグファイル",
 
     "ffmpegのパス": "comment",
-    "ffmpethpath": "/opt/homebrew/bin/ffmpeg",
+    "ffmpegpath": "/opt/homebrew/bin/ffmpeg",
 
     "mp4path": "/Users/watadani/OneDrive/personal/llmp4",
     "mp3path": "/Users/watadani/OneDrive/personal/llmp3"
