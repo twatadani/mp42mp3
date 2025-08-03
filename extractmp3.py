@@ -18,7 +18,7 @@ def extractmp3(ffmpegpath: str, mp4path: str, mp3path: str):
     ffmpegpath = os.path.expandvars(os.path.expanduser(ffmpegpath))
 
     # ffmpegを実行
-    result = subprocess.run( [ffmpegpath, '-i', mp4path, '-c:a', 'mp3', mp3fullname] )
+    result = subprocess.run( [ffmpegpath, '-i', mp4path, '-c:a', 'mp3', '-b:a', '192k', mp3fullname] )
 
     return result
     
